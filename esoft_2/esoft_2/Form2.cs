@@ -15,7 +15,6 @@ namespace esoft_2
     public partial class Form2 : Form
     {
         SqlConnection con = new SqlConnection("Data Source = 303-3\\SQLEXPRESS; Initial Catalog = esoft_2; Integrated Security = true;");
-        public int ИД_менеджера = 0;
 
         public Form2()
         {
@@ -34,6 +33,7 @@ namespace esoft_2
 
         private void button1_Click(object sender, EventArgs e)
         {
+
         }
     }
 }
